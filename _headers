@@ -1,1 +1,4 @@
-Content-Security-Policy: frame-ancestors 'self'
+Content-Security-Policy: frame-ancestors 'self';    // Adjust CSP directives based on your requirements
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin
